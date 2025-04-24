@@ -49,3 +49,5 @@ group :development do
   # gem "spring"
 end
 
+
+gem "byebug", "~> 12.0", groups: [:development, :test]
