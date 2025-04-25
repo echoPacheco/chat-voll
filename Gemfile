@@ -51,3 +51,5 @@ end
 
 
 gem "byebug", "~> 12.0", groups: [:development, :test]
+
+gem 'rack-cors'

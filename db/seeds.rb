@@ -4,5 +4,6 @@
 
 User.delete_all
 
-User.create!(name: "Mateus", email: "mateus@gmail.com", password: "123456", password_confirmation: "123456")
-User.create!(name: "Pacheco", email: "pacheco@gmail.com", password: "654321", password_confirmation: "654321")
+User.create!(name: "Mateus", email: "mateus@gmail.com", password: "123123", password_confirmation: "123123")
+User.create!(name: "Pacheco", email: "pacheco@gmail.com", password: "123123", password_confirmation: "123123")
+User.create!(name: "João", email: "joao@gmail.com", password: "123123", password_confirmation: "123123")
