@@ -7,5 +7,9 @@ Rails.application.routes.draw do
 
   post "/auth/login", to: "auth#login"
 
+  resources :messages, only: [:index, :create]
+  
   resources :users, only: [:index, :show]
+
+  get '/me', to: 'users#me'
 end
