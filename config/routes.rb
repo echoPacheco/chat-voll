@@ -12,4 +12,6 @@ Rails.application.routes.draw do
   resources :users, only: [:index, :show]
 
   get '/me', to: 'users#me'
+  
+  get '/metrics', to: 'metrics#index'
 end
